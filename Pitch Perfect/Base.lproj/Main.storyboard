@@ -59,12 +59,12 @@
                                 <exclude reference="bdZ-sn-hCL"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="0cX-BG-VMw"/>
-                                <exclude reference="Edq-Ri-Wjy"/>
                                 <exclude reference="CTZ-zg-JS4"/>
                                 <exclude reference="Qzg-b6-oIw"/>
                                 <exclude reference="PgQ-gV-G1U"/>
                                 <exclude reference="uek-hX-qHn"/>
+                                <exclude reference="0cX-BG-VMw"/>
+                                <exclude reference="Edq-Ri-Wjy"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -74,12 +74,12 @@
                                 <include reference="bdZ-sn-hCL"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="0cX-BG-VMw"/>
-                                <include reference="Edq-Ri-Wjy"/>
                                 <include reference="CTZ-zg-JS4"/>
                                 <include reference="Qzg-b6-oIw"/>
                                 <include reference="PgQ-gV-G1U"/>
                                 <include reference="uek-hX-qHn"/>
+                                <include reference="0cX-BG-VMw"/>
+                                <include reference="Edq-Ri-Wjy"/>
                             </mask>
                         </variation>
                     </view>
@@ -93,17 +93,39 @@
             </objects>
             <point key="canvasLocation" x="1020" y="-358"/>
         </scene>
-        <!--View Controller-->
+        <!--Play Sounds View Controller-->
         <scene sceneID="BUe-zI-75f">
             <objects>
-                <viewController id="Iy7-qA-ZiF" sceneMemberID="viewController">
+                <viewController id="Iy7-qA-ZiF" customClass="PlaySoundsViewController" customModule="Pitch_Perfect" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cMT-vk-0t3"/>
                         <viewControllerLayoutGuide type="bottom" id="hmw-tG-gNf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="JUS-2d-2dB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSj-Uu-oh2">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="53" y="95" width="46" height="30"/>
+                                </variation>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="eSj-Uu-oh2"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="eSj-Uu-oh2"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GDw-gp-lDw" userLabel="First Responder" sceneMemberID="firstResponder"/>
