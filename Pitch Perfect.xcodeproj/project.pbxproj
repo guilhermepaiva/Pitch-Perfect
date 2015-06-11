@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD008FB11B2879AA008CA41E /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD008FB01B2879AA008CA41E /* PlaySoundsViewController.swift */; };
+		CD008FB31B29C5BF008CA41E /* slow@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CD008FB21B29C5BF008CA41E /* slow@2x~iphone.png */; };
 		CD6866DA1B1FCA6600A2C702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6866D91B1FCA6600A2C702 /* AppDelegate.swift */; };
 		CD6866DC1B1FCA6600A2C702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6866DB1B1FCA6600A2C702 /* ViewController.swift */; };
 		CD6866DF1B1FCA6600A2C702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6866DD1B1FCA6600A2C702 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		CD008FB01B2879AA008CA41E /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		CD008FB21B29C5BF008CA41E /* slow@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "slow@2x~iphone.png"; path = "../../images/slow@2x~iphone.png"; sourceTree = "<group>"; };
 		CD6866D41B1FCA6600A2C702 /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6866D81B1FCA6600A2C702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD6866D91B1FCA6600A2C702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				CD008FB01B2879AA008CA41E /* PlaySoundsViewController.swift */,
+				CD008FB21B29C5BF008CA41E /* slow@2x~iphone.png */,
 				CD6866D91B1FCA6600A2C702 /* AppDelegate.swift */,
 				CD6866DB1B1FCA6600A2C702 /* ViewController.swift */,
 				CD6866DD1B1FCA6600A2C702 /* Main.storyboard */,
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD6866DF1B1FCA6600A2C702 /* Main.storyboard in Resources */,
+				CD008FB31B29C5BF008CA41E /* slow@2x~iphone.png in Resources */,
 				CD6866E41B1FCA6600A2C702 /* LaunchScreen.xib in Resources */,
 				CD6866E11B1FCA6600A2C702 /* Images.xcassets in Resources */,
 			);
