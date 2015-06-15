@@ -16,6 +16,7 @@
 		CD6866E11B1FCA6600A2C702 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6866E01B1FCA6600A2C702 /* Images.xcassets */; };
 		CD6866E41B1FCA6600A2C702 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6866E21B1FCA6600A2C702 /* LaunchScreen.xib */; };
 		CD6866F01B1FCA6600A2C702 /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6866EF1B1FCA6600A2C702 /* Pitch_PerfectTests.swift */; };
+		CDB19B251B2F6B3A00A1B294 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB19B241B2F6B3A00A1B294 /* RecordedAudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		CD6866E91B1FCA6600A2C702 /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch PerfectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6866EE1B1FCA6600A2C702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD6866EF1B1FCA6600A2C702 /* Pitch_PerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectTests.swift; sourceTree = "<group>"; };
+		CDB19B241B2F6B3A00A1B294 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordedAudio.swift; path = ../RecordedAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		CD6866D61B1FCA6600A2C702 /* Pitch Perfect */ = {
 			isa = PBXGroup;
 			children = (
+				CDB19B241B2F6B3A00A1B294 /* RecordedAudio.swift */,
 				CD008FB01B2879AA008CA41E /* PlaySoundsViewController.swift */,
 				CD008FB21B29C5BF008CA41E /* slow@2x~iphone.png */,
 				CD6866D91B1FCA6600A2C702 /* AppDelegate.swift */,
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDB19B251B2F6B3A00A1B294 /* RecordedAudio.swift in Sources */,
 				CD6866DC1B1FCA6600A2C702 /* RecordSoundsViewController.swift in Sources */,
 				CD008FB11B2879AA008CA41E /* PlaySoundsViewController.swift in Sources */,
 				CD6866DA1B1FCA6600A2C702 /* AppDelegate.swift in Sources */,
