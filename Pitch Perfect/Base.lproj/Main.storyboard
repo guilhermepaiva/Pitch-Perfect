@@ -9,12 +9,12 @@
         <!--Record-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Pitch_Perfect" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="RecordSoundsViewController" customModule="Pitch_Perfect" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS" customClass="RecordSounsViewController">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -121,9 +121,6 @@
                                 <state key="normal" image="fast">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="229" y="95" width="155" height="100"/>
-                                </variation>
                                 <connections>
                                     <action selector="playFastAudio:" destination="Iy7-qA-ZiF" eventType="touchUpInside" id="pA8-uu-r0o"/>
                                 </connections>
@@ -154,12 +151,12 @@
                                 <exclude reference="fQ8-cG-hPT"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="3ey-gf-S8S"/>
-                                <exclude reference="kHx-BM-taa"/>
+                                <exclude reference="eGJ-ni-ggc"/>
                                 <exclude reference="TXf-BR-vtb"/>
                                 <exclude reference="k3n-rr-JDI"/>
+                                <exclude reference="3ey-gf-S8S"/>
+                                <exclude reference="kHx-BM-taa"/>
                                 <exclude reference="Txl-SO-Hsq"/>
-                                <exclude reference="eGJ-ni-ggc"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -169,12 +166,12 @@
                                 <include reference="fQ8-cG-hPT"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="3ey-gf-S8S"/>
-                                <include reference="kHx-BM-taa"/>
+                                <include reference="eGJ-ni-ggc"/>
                                 <include reference="TXf-BR-vtb"/>
                                 <include reference="k3n-rr-JDI"/>
+                                <include reference="3ey-gf-S8S"/>
+                                <include reference="kHx-BM-taa"/>
                                 <include reference="Txl-SO-Hsq"/>
-                                <include reference="eGJ-ni-ggc"/>
                             </mask>
                         </variation>
                     </view>
