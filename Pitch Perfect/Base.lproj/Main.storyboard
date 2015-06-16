@@ -134,15 +134,37 @@
                                     <action selector="stopAudio:" destination="Iy7-qA-ZiF" eventType="touchUpInside" id="Eef-Tr-feM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrK-zy-ihQ">
+                                <rect key="frame" x="42" y="308" width="100" height="100"/>
+                                <state key="normal" image="chipmunk">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playChipmunkAudio:" destination="Iy7-qA-ZiF" eventType="touchUpInside" id="4jd-mv-Hss"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYQ-bY-tYE">
+                                <rect key="frame" x="458" y="308" width="100" height="100"/>
+                                <state key="normal" image="darthvader">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playDarthvaderAudio:" destination="Iy7-qA-ZiF" eventType="touchUpInside" id="Yj4-x4-83t"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="GYQ-bY-tYE" firstAttribute="top" secondItem="cMT-vk-0t3" secondAttribute="bottom" constant="244" id="2QP-tq-TBs"/>
                             <constraint firstItem="eSj-Uu-oh2" firstAttribute="top" secondItem="cMT-vk-0t3" secondAttribute="bottom" constant="31" id="3ey-gf-S8S"/>
                             <constraint firstAttribute="trailingMargin" secondItem="W7k-tZ-0k4" secondAttribute="trailing" constant="37" id="TXf-BR-vtb"/>
                             <constraint firstAttribute="centerX" secondItem="fQ8-cG-hPT" secondAttribute="centerX" constant="-2" id="Txl-SO-Hsq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GYQ-bY-tYE" secondAttribute="trailing" constant="26" id="Ux2-V2-Amu"/>
                             <constraint firstItem="hmw-tG-gNf" firstAttribute="top" secondItem="fQ8-cG-hPT" secondAttribute="bottom" constant="22" id="eGJ-ni-ggc"/>
+                            <constraint firstItem="qrK-zy-ihQ" firstAttribute="leading" secondItem="JUS-2d-2dB" secondAttribute="leadingMargin" constant="26" id="gBv-Pp-NHG"/>
                             <constraint firstItem="W7k-tZ-0k4" firstAttribute="top" secondItem="cMT-vk-0t3" secondAttribute="bottom" constant="31" id="k3n-rr-JDI"/>
                             <constraint firstItem="eSj-Uu-oh2" firstAttribute="leading" secondItem="JUS-2d-2dB" secondAttribute="leadingMargin" constant="37" id="kHx-BM-taa"/>
+                            <constraint firstItem="qrK-zy-ihQ" firstAttribute="top" secondItem="cMT-vk-0t3" secondAttribute="bottom" constant="244" id="xPn-hC-sSo"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -151,12 +173,12 @@
                                 <exclude reference="fQ8-cG-hPT"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="eGJ-ni-ggc"/>
                                 <exclude reference="TXf-BR-vtb"/>
                                 <exclude reference="k3n-rr-JDI"/>
                                 <exclude reference="3ey-gf-S8S"/>
                                 <exclude reference="kHx-BM-taa"/>
                                 <exclude reference="Txl-SO-Hsq"/>
+                                <exclude reference="eGJ-ni-ggc"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -166,12 +188,12 @@
                                 <include reference="fQ8-cG-hPT"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="eGJ-ni-ggc"/>
                                 <include reference="TXf-BR-vtb"/>
                                 <include reference="k3n-rr-JDI"/>
                                 <include reference="3ey-gf-S8S"/>
                                 <include reference="kHx-BM-taa"/>
                                 <include reference="Txl-SO-Hsq"/>
+                                <include reference="eGJ-ni-ggc"/>
                             </mask>
                         </variation>
                     </view>
@@ -200,6 +222,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="chipmunk" width="100" height="100"/>
+        <image name="darthvader" width="100" height="100"/>
         <image name="fast" width="100" height="100"/>
         <image name="microphone" width="100" height="100"/>
         <image name="slow" width="100" height="100"/>

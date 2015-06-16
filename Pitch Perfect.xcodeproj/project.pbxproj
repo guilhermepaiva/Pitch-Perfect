@@ -17,6 +17,8 @@
 		CD6866E41B1FCA6600A2C702 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6866E21B1FCA6600A2C702 /* LaunchScreen.xib */; };
 		CD6866F01B1FCA6600A2C702 /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6866EF1B1FCA6600A2C702 /* Pitch_PerfectTests.swift */; };
 		CDB19B251B2F6B3A00A1B294 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB19B241B2F6B3A00A1B294 /* RecordedAudio.swift */; };
+		CDC682411B30B4F10004CF0C /* chipmunk@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC682401B30B4F10004CF0C /* chipmunk@2x~iphone.png */; };
+		CDC682431B30C0BB0004CF0C /* darthvader@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC682421B30C0BB0004CF0C /* darthvader@2x~iphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		CD6866EE1B1FCA6600A2C702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD6866EF1B1FCA6600A2C702 /* Pitch_PerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectTests.swift; sourceTree = "<group>"; };
 		CDB19B241B2F6B3A00A1B294 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordedAudio.swift; path = ../RecordedAudio.swift; sourceTree = "<group>"; };
+		CDC682401B30B4F10004CF0C /* chipmunk@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chipmunk@2x~iphone.png"; path = "../../images/chipmunk@2x~iphone.png"; sourceTree = "<group>"; };
+		CDC682421B30C0BB0004CF0C /* darthvader@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "darthvader@2x~iphone.png"; path = "../../images/darthvader@2x~iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 				CD6866D91B1FCA6600A2C702 /* AppDelegate.swift */,
 				CD6866DB1B1FCA6600A2C702 /* RecordSoundsViewController.swift */,
 				CD6866DD1B1FCA6600A2C702 /* Main.storyboard */,
+				CDC682421B30C0BB0004CF0C /* darthvader@2x~iphone.png */,
+				CDC682401B30B4F10004CF0C /* chipmunk@2x~iphone.png */,
 				CD6866E01B1FCA6600A2C702 /* Images.xcassets */,
 				CD6866E21B1FCA6600A2C702 /* LaunchScreen.xib */,
 				CD6866D71B1FCA6600A2C702 /* Supporting Files */,
@@ -204,9 +210,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC682431B30C0BB0004CF0C /* darthvader@2x~iphone.png in Resources */,
 				CD6866DF1B1FCA6600A2C702 /* Main.storyboard in Resources */,
 				CD008FB31B29C5BF008CA41E /* slow@2x~iphone.png in Resources */,
 				CD008FB51B2A1D67008CA41E /* movie_quote.mp3 in Resources */,
+				CDC682411B30B4F10004CF0C /* chipmunk@2x~iphone.png in Resources */,
 				CD6866E41B1FCA6600A2C702 /* LaunchScreen.xib in Resources */,
 				CD6866E11B1FCA6600A2C702 /* Images.xcassets in Resources */,
 			);
